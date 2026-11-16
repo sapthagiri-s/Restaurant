@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #17120D;
+    color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+/* =================================
+   3. NAVIGATION BAR
+================================= */
+
+/* NAVIGATION BAR */
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background: #17120D;
+    padding: 10px 0;
+}
+
+.navbar {
+    max-width: 1450px;
+    margin: auto;
+    padding: 10px 45px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO */
+
+.logo {
+    width: 130px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+/* Navigation links */
+
+.nav-links,
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #f5edf8;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #D4B66A;
+}
+
+.reserve-btn {
+    padding: 12px 22px;
+    font-size: 14px;
+    font-weight: 600;
+
+    background: #D4B66A;
+    color: #17120D !important;
+
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+
+    transition: 0.3s ease;
+}
+
+.reserve-btn:hover {
+    transform: translateY(-2px);
+    background: #B99A50;
+    color: #17120D !important;
+}
+
+/* HERO SECTION */
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* DARK OVERLAY */
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 1;
+}
+
+/* HERO CONTENT */
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+    width: 90%;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(38px, 5vw, 65px);
+    font-weight: 700;
+    line-height: 1.3;
+    color: #FFFFFF;
+}
+
+.hero-content p {
+    margin-top: 15px;
+    margin-bottom: 35px;
+
+    font-size: 17px;
+    line-height: 1.8;
+    color: #D6CBB8;
+}
+
+.hero-content .art {
+    color: #D4B66A;
+    display: block;
+}
+
+.Explore-btn{
+    padding: 12px 22px;
+    font-size: 14px;
+    font-weight: 600;
+    background: #D4B66A;
+    color: #17120D !important;
+
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.Explore-btn:hover {
+    transform: translateY(-2px);
+    background: #B99A50;
+    color: #17120D !important;
+}
+
+.reserve-btn2 {
+    padding: 12px 22px;
+    font-size: 14px;
+    font-weight: 600;
+
+    color: #B99A50 !important;
+    margin-left: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #B99A50;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.reserve-btn2:hover {
+    transform: translateY(-2px);
+    background: #B99A50;
+    color: #17120D !important;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}

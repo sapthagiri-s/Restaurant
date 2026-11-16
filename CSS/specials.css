@@ -1,0 +1,166 @@
+
+/* =================================
+   CHEF'S SPECIALS
+================================= */
+
+.specials-section {
+    width: 100%;
+    padding: 100px 45px;
+    background: #211911;
+}
+
+/* HEADING */
+
+.specials-heading {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.specials-heading > span {
+    color: #D4B66A;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.specials-heading h2 {
+    margin-top: 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 46px;
+    color: #FFFFFF;
+}
+
+.specials-heading h2 span {
+    color: #D4B66A;
+}
+
+.specials-heading p {
+    margin-top: 15px;
+    color: #B8B0A2;
+    font-size: 15px;
+}
+
+/* GRID */
+
+.specials-grid {
+    max-width: 1250px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+}
+
+/* CARD */
+
+.special-card {
+    background: #17120D;
+    border: 1px solid rgba(212, 182, 106, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.special-card:hover {
+    transform: translateY(-8px);
+    border-color: #D4B66A;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* IMAGE */
+
+.special-image {
+    position: relative;
+    height: 260px;
+    overflow: hidden;
+}
+
+.special-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.special-card:hover .special-image img {
+    transform: scale(1.08);
+}
+
+/* BADGE */
+
+.special-badge {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+
+    padding: 7px 12px;
+
+    background: #D4B66A;
+    color: #17120D;
+
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    border-radius: 4px;
+}
+
+/* CONTENT */
+
+.special-content {
+    padding: 23px;
+}
+
+.special-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.special-title h3 {
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+}
+
+.special-title span {
+    color: #D4B66A;
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.special-content p {
+    margin-top: 14px;
+    color: #B8B0A2;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+    .specials-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .specials-section {
+        padding: 65px 20px;
+    }
+
+    .specials-heading h2 {
+        font-size: 34px;
+    }
+
+    .specials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .special-image {
+        height: 230px;
+    }
+}

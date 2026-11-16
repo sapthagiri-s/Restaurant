@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="CSS/about.css">
+    <link rel="stylesheet" href="CSS/menu.css">
+    <link rel="stylesheet" href="CSS/specials.css">
+    <link rel="stylesheet" href="CSS/gallery.css">
+    <link rel="stylesheet" href="CSS/reviews.css">
+    <link rel="stylesheet" href="CSS/reservation.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="logo-link">
+                <img class="logo" src="Images/Aurum Fine Dining Emblem.png" alt="Aurum Fine Dining Logo">
+            </a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#specials">Chef's Specials</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+                <a href="#reservation" class="reserve-btn">Reserve a Table</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+
+    <section class="hero" id="home">
+        <img src="Images/Background.jpg" alt="Aurum Fine Dining Restaurant">
+        <div class="hero-content">
+            <h1>
+                Experience the <span class="art">Art of Taste</span>
+            </h1>
+            <p>Discover an extraordinary dining experience.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="Explore-btn">Explore Our Menu</a>
+                <a href="#reservation" class="reserve-btn2">Reserve a Table</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="Images/about.jpg" alt="Aurum chef preparing a gourmet dish">
+            </div>
+            <div class="about-content">
+                <span class="about-subtitle">OUR STORY</span>
+                <h2>
+                    A Journey of
+                    <span>Exceptional Taste</span>
+                </h2>
+                <div class="gold-line"></div>
+                <p>
+                    At Aurum, we believe dining is more than just a meal.
+                    It is an experience crafted with passion, creativity,
+                    and attention to every detail.
+                </p>
+
+                <p>
+                    From carefully selected ingredients to beautifully
+                    presented dishes, every moment at Aurum is designed
+                    to celebrate the art of fine dining.
+                </p>
+
+                <a href="#menu" class="discover-btn">
+                    Discover Our Story
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================================
+     OUR SIGNATURE MENU
+    ================================= -->
+    <section class="menu-section" id="menu">
+        <div class="menu-heading">
+            <span class="menu-subtitle">DISCOVER OUR CUISINE</span>
+            <h2>Our Signature <span>Menu</span></h2>
+            <p>Discover the taste of perfection through our carefully crafted dishes.</p>
+        </div>
+
+        <!-- STARTERS -->
+        <div class="menu-category">
+            <h3>Starters</h3>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-image">
+                        <img src="Images/bruschetta.jpg" alt="Tomato Bruschetta">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="dish-title">
+                            <h4>Tomato Bruschetta</h4>
+                            <span>₹450</span>
+                        </div>
+
+                        <p>Fresh tomatoes, basil, garlic and toasted artisan bread.</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-image">
+                        <img src="Images/scallops.jpg" alt="Seared Scallops">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="dish-title">
+                            <h4>Seared Scallops</h4>
+                            <span>₹650</span>
+                        </div>
+
+                        <p>Perfectly seared scallops with creamy herb butter sauce.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MAIN COURSE -->
+
+        <div class="menu-category">
+
+            <h3>Main Course</h3>
+
+            <div class="menu-grid">
+
+                <div class="menu-card">
+                    <div class="menu-image">
+                        <img src="Images/grilled-steak.jpg" alt="Grilled Steak">
+                    </div>
+
+                    <div class="menu-card-content">
+                        <div class="dish-title">
+                            <h4>Grilled Steak</h4>
+                            <span>₹1,250</span>
+                        </div>
+
+                        <p>Premium grilled steak served with roasted vegetables.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+
+                    <div class="menu-image">
+                        <img src="Images/salmon.jpg" alt="Herb Crusted Salmon">
+                    </div>
+
+                    <div class="menu-card-content">
+                        <div class="dish-title">
+                            <h4>Herb Crusted Salmon</h4>
+                            <span>₹1,050</span>
+                        </div>
+
+                        <p>Fresh salmon with aromatic herbs and lemon butter sauce.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- DESSERTS -->
+
+        <div class="menu-category">
+
+            <h3>Desserts</h3>
+
+            <div class="menu-grid">
+
+                <div class="menu-card">
+
+                    <div class="menu-image">
+                        <img src="Images/chocolate-lava.jpg" alt="Chocolate Lava Cake">
+                    </div>
+
+                    <div class="menu-card-content">
+                        <div class="dish-title">
+                            <h4>Chocolate Lava Cake</h4>
+                            <span>₹450</span>
+                        </div>
+
+                        <p>Rich chocolate cake with a warm molten centre.</p>
+                    </div>
+
+                </div>
+
+                <div class="menu-card">
+
+                    <div class="menu-image">
+                        <img src="Images/creme-brulee.jpg" alt="Classic Creme Brulee">
+                    </div>
+
+                    <div class="menu-card-content">
+                        <div class="dish-title">
+                            <h4>Classic Crème Brûlée</h4>
+                            <span>₹400</span>
+                        </div>
+
+                        <p>Silky vanilla custard topped with caramelized sugar.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-footer">
+            <a href="#reservation" class="full-menu-btn">
+                Reserve Your Experience
+            </a>
+        </div>
+    </section>
+
+
+    <!-- =================================
+     CHEF'S SPECIALS
+    ================================= -->
+
+    <section class="specials-section" id="specials">
+
+        <div class="specials-heading">
+            <span>EXCLUSIVE SELECTION</span>
+            <h2>Chef's <span>Specials</span></h2>
+            <p>A curated selection of our chef's finest creations.</p>
+        </div>
+
+        <div class="specials-grid">
+
+            <!-- SPECIAL 1 -->
+
+            <div class="special-card">
+                <div class="special-image">
+                    <img src="Images/Signature Wagyu Steak.jpg" alt="Signature Wagyu Steak">
+                    <span class="special-badge">CHEF'S CHOICE</span>
+                </div>
+
+                <div class="special-content">
+                    <div class="special-title">
+                        <h3>Signature Wagyu Steak</h3>
+                        <span>₹1,850</span>
+                    </div>
+                    <p>Premium grilled Wagyu beef with herb butter and roasted vegetables.</p>
+                </div>
+            </div>
+
+            <!-- SPECIAL 2 -->
+
+            <div class="special-card">
+                <div class="special-image">
+                    <img src="Images/Royal Seafood Platter.jpg" alt="Royal Seafood Platter">
+                    <span class="special-badge">POPULAR</span>
+                </div>
+
+                <div class="special-content">
+                    <div class="special-title">
+                        <h3>Royal Seafood Platter</h3>
+                        <span>₹1,650</span>
+                    </div>
+                    <p>Lobster, prawns and scallops served with creamy garlic sauce.</p>
+                </div>
+            </div>
+
+            <!-- SPECIAL 3 -->
+
+            <div class="special-card">
+                <div class="special-image">
+                    <img src="Images/Golden Chocolate Delight.jpg" alt="Golden Chocolate Delight">
+                    <span class="special-badge">SIGNATURE DESSERT</span>
+                </div>
+
+                <div class="special-content">
+                    <div class="special-title">
+                        <h3>Golden Chocolate Delight</h3>
+                        <span>₹650</span>
+                    </div>
+                    <p>Decadent chocolate mousse with gold accents and vanilla cream.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =================================
+     RESTAURANT GALLERY
+    ================================= -->
+
+    <section class="gallery-section" id="gallery">
+
+        <div class="gallery-heading">
+            <span>A GLIMPSE INTO AURUM</span>
+
+            <h2>Our <span>Gallery</span></h2>
+
+            <p>Explore the moments, flavours and atmosphere that make Aurum special.</p>
+        </div>
+
+        <div class="gallery-grid">
+
+            <!-- Add your six gallery images here -->
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="Images/Restaurant Interior.jpg" alt="Restaurant Interior">
+
+                </div>
+            </div>
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="Images/Chef Preparation.jpg" alt="Chef Preparation">
+
+                </div>
+            </div>
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="Images/Gourmet Cuisine.jpg" alt="Gourmet Cuisine">
+
+                </div>
+            </div>
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="Images/Dining Experience.jpg" alt="Dining Experience">
+
+                </div>
+            </div>
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="Images/Signature Desserts.jpg" alt="Signature Desserts">
+
+                </div>
+            </div>
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="Images/Restaurant Ambience.jpg" alt="Restaurant Ambience">
+
+                </div>
+            </div>
+    </section>
+
+    <!-- =================================
+     CUSTOMER REVIEWS
+    ================================= -->
+
+    <section class="review-section" id="reviews">
+        <div class="review-heading">
+            <span>TESTIMONIALS</span>
+            <h2>What Our <span>Guests Say</span></h2>
+            <p>Discover what makes every Aurum dining experience special.</p>
+        </div>
+        <div class="review-grid">
+            <!-- REVIEW 1 -->
+            <div class="review-card">
+                <div class="review-content">
+                    <div class="review-stars">★★★★</div>
+                    <p>
+                        An extraordinary dining experience!
+                        The food presentation, flavours and atmosphere
+                        were absolutely exceptional.
+                    </p>
+                    <div class="review-customer">
+                        <img src="Images/customer1.jpeg" alt="Customer profile">
+                        <div class="customer-info">
+                            <h4>Sapthagiri S</h4>
+                            <span>Food Enthusiast</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- REVIEW 2 -->
+            <div class="review-card">
+                <div class="review-content">
+                    <div class="review-stars">★★★★★</div>
+                    <p>
+                        Beautiful ambience and outstanding service.
+                        Every dish was carefully prepared and full
+                        of incredible flavours.
+                    </p>
+                    <div class="review-customer">
+                        <img src="Images/customer2.jpeg" alt="Customer profile">
+                        <div class="customer-info">
+                            <h4>Priya Dharshini</h4>
+                            <span>Regular Guest</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- REVIEW 3 -->
+            <div class="review-card">
+                <div class="review-content">
+                    <div class="review-stars">★★★★★</div>
+                    <p>
+                        A perfect place for a memorable dinner.
+                        The elegant atmosphere and delicious food
+                        made our evening special.
+                    </p>
+                    <div class="review-customer">
+                        <img src="Images/customer3.jpeg" alt="Customer profile">
+                        <div class="customer-info">
+                            <h4>Elan Dharsheni</h4>
+                            <span>Verified Guest</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =================================
+     TABLE RESERVATION
+================================= -->
+
+    <section class="reservation-section" id="reservation">
+
+        <div class="reservation-heading">
+            <span>BOOK YOUR EXPERIENCE</span>
+            <h2>Reserve Your <span>Table</span></h2>
+            <p>Join us for an unforgettable dining experience at Aurum.</p>
+        </div>
+
+        <div class="reservation-container">
+
+            <form class="reservation-form">
+
+                <div class="reservation-grid">
+
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="Enter phone number" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="guests">Number of Guests</label>
+                        <select id="guests" required>
+                            <option value="">Select guests</option>
+                            <option>1 Guest</option>
+                            <option>2 Guests</option>
+                            <option>3 Guests</option>
+                            <option>4 Guests</option>
+                            <option>5 Guests</option>
+                            <option>6 Guests</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date">Reservation Date</label>
+                        <input type="date" id="date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="time">Reservation Time</label>
+                        <input type="time" id="time" required>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="requests">Special Requests</label>
+                        <textarea id="requests" rows="4" placeholder="Any special requirements?"></textarea>
+                    </div>
+
+                </div>
+
+                <button type="submit" class="reservation-btn">
+                    Confirm Reservation
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+     CONTACT SECTION
+    ================================= -->
+
+    <section class="contact-section" id="contact">
+
+        <div class="contact-heading">
+            <span>WE WOULD LOVE TO HEAR FROM YOU</span>
+            <h2>Get In <span>Touch</span></h2>
+            <p>Have a question or planning a special evening? Contact us.</p>
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <div class="contact-item">
+                    <h3>Our Location</h3>
+                    <p>123 Fine Dining Street, Salem, Tamil Nadu</p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Phone Number</h3>
+                    <p>+91 91235 77594</p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Email Address</h3>
+                    <p>sapthagiri@aurumrestaurant.com</p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Opening Hours</h3>
+                    <p>Monday – Sunday</p>
+                    <p>12:00 PM – 11:00 PM</p>
+                </div>
+
+            </div>
+
+            <form class="contact-form">
+
+                <div class="contact-form-group">
+                    <label for="contact-name">Full Name</label>
+                    <input type="text" id="contact-name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="contact-form-group">
+                    <label for="contact-email">Email Address</label>
+                    <input type="email" id="contact-email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="contact-form-group">
+                    <label for="contact-subject">Subject</label>
+                    <input type="text" id="contact-subject" placeholder="Enter subject">
+                </div>
+
+                <div class="contact-form-group">
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message" rows="5" placeholder="Write your message..." required></textarea>
+                </div>
+
+                <button type="submit" class="contact-btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- =================================
+     FOOTER
+================================= -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <img src="Images/Aurum Fine Dining Emblem.png" alt="Aurum Fine Dining Logo">
+
+                <p>
+                    Experience the art of fine dining.
+                    Every dish tells a story of passion and perfection.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#reviews">Reviews</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Explore</h3>
+
+                <a href="#specials">Chef's Specials</a>
+                <a href="#reservation">Reservation</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Contact</h3>
+
+                <p>Salem, Tamil Nadu</p>
+                <p>+91 91235 77594</p>
+                <p>sapthagiri@aurumrestaurant.com</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Aurum Fine Dining. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

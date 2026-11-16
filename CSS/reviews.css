@@ -1,0 +1,145 @@
+
+/* =================================
+   Our review
+================================= */
+
+.review-section {
+    width: 100%;
+    padding: 100px 45px;
+    background: #211911;
+}
+
+/* HEADING */
+
+.review-heading {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.review-heading > span {
+    color: #D4B66A;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.review-heading h2 {
+    margin-top: 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 46px;
+    color: #FFFFFF;
+}
+
+.review-heading h2 span {
+    color: #D4B66A;
+}
+
+.review-heading p {
+    margin-top: 15px;
+    color: #B8B0A2;
+    font-size: 15px;
+}
+
+/* GRID */
+
+.review-grid {
+    max-width: 1250px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+}
+
+
+/* CARD */
+
+.review-card {
+    background: #17120D;
+    border: 1px solid rgba(212, 182, 106, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-8px);
+    border-color: #D4B66A;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* REVIEW CARD CONTENT */
+
+.review-content {
+    padding: 28px;
+}
+
+/* STAR RATING */
+
+.review-stars {
+    color: #D4B66A;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+}
+
+/* REVIEW DESCRIPTION */
+
+.review-content p {
+    color: #B8B0A2;
+    font-size: 14px;
+    line-height: 1.9;
+    margin-bottom: 25px;
+}
+
+/* CUSTOMER DETAILS */
+
+.review-customer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    border-top: 1px solid rgba(212, 182, 106, 0.2);
+    padding-top: 20px;
+}
+
+.review-customer img {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.customer-info h4 {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.customer-info span {
+    color: #D4B66A;
+    font-size: 12px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+    .review-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .review-section {
+        padding: 65px 20px;
+    }
+
+    .review-heading h2 {
+        font-size: 34px;
+    }
+
+    .review-grid {
+        grid-template-columns: 1fr;
+    }
+}
